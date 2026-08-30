@@ -1,6 +1,6 @@
 id: mcp-web-validator
 name: Web Validator by DigestSEO
-description: Validates HTML and CSS, audits technical SEO and JSON-LD, checks public links, and captures responsive screenshots for web quality workflows.
+description: Provides local HTML/CSS validation, technical SEO and JSON-LD checks, broken-link checks, and responsive screenshots, plus constrained hosted public-page and site audits.
 author: DigestSEO
 url: https://github.com/AKzar1el/mcp-web-validator
 category: web-automation
