@@ -5,19 +5,15 @@ author: Tomi Šeregi
 url: https://github.com/AKzar1el/mcp-trendpulse
 category: search
 prerequisites:
-  - uv/uvx is required to run the current GitHub-distributed package.
+  - Python with uv/uvx is required to run the published package.
   - Internet access is required for Google News, Google Trends, and article retrieval.
   - Playwright Chromium is optional and only needed for browser fallback on difficult article pages.
 content:
-  - name: UVX from GitHub
+  - name: UVX (PyPI 0.2.11)
     prerequisites:
       - uv/uvx
     content: |
       {
         "command": "uvx",
-        "args": [
-          "--from",
-          "git+https://github.com/AKzar1el/mcp-trendpulse.git",
-          "mcp-trendpulse"
-        ]
+        "args": ["mcp-trendpulse==0.2.11"]
       }
