@@ -6,14 +6,12 @@ url: https://github.com/AKzar1el/god-prompt-mcp
 category: development
 prerequisites:
   - Node.js 20 or newer
-  - Git
 content:
-  - name: NPX from GitHub
+  - name: NPX
     prerequisites:
       - Node.js 20 or newer
-      - Git
     content: |
       {
         "command": "npx",
-        "args": ["-y", "github:AKzar1el/god-prompt-mcp"]
+        "args": ["-y", "god-prompt-mcp"]
       }
